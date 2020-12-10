@@ -1,0 +1,34 @@
+Repo en la computadora(no internet)
+Comando Git:
+
+%Nombre de usario:
+
+git config --global user.name "zozimo"
+
+%Email de usario:
+
+git config --global user.email "cristianzozimo.aranda@gmail.com"
+
+%Creacion de Repositorio:
+%Un repo es una carpeta oculta (.git) que tiene todo lo que git necesita para hacer el seguimiento de archivos de la carpeta.
+
+git init
+%Para eliminar el Repositorio hago rm la carpeta .git
+%El seguimiento de un proyecto se basa en hacer commits. Un commit es una foto tomada en el tiempo de todo los archivos que estan en el Repo.
+
+%Estado de mis archivos
+
+git status
+
+%Hacemos un commit
+
+git add -A %agrega todos los archivos
+git status
+git commit -m "commit inicial"
+
+% Volver al nodo anterior
+
+git check out  f0c35a09f4029c7a1c94f04269b9eb4e6e147761(hash del nodo)
+
+%Vuelvo al principio antes del git checkout
+%git check master
