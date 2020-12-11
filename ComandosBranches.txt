@@ -12,3 +12,17 @@ git checkout -b "nombre de la rama(representativo)"
 
 git checkout "nombreDelBranch"
 
+%traer modificaciones del branch:
+%Despues de en github aceptar el pull Request debo ir a el brach master(main) con
+
+git checkout master
+
+%luego poner
+
+git pull origin master
+
+%quitar archivos de un commit
+
+git restore --staged "archivo"
+
+
