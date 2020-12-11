@@ -1,0 +1,11 @@
+Comandos para trabajar con branches(ramas)
+
+%comando para ver mis ramas
+
+git branch -- list
+
+%comando para crear una ramas
+
+git checkout -b "nombre de la rama(representativo)"
+
+%comando para 
