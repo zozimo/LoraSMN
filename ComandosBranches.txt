@@ -12,6 +12,10 @@ git checkout -b "nombre de la rama(representativo)"
 
 git checkout "nombreDelBranch"
 
+%comando para subir a la los commits a la Rama
+
+git push origin "rama"
+
 %traer modificaciones del branch:
 %Despues de en github aceptar el pull Request debo ir a el brach master(main) con
 
@@ -24,5 +28,4 @@ git pull origin master
 %quitar archivos de un commit
 
 git restore --staged "archivo"
-
 
